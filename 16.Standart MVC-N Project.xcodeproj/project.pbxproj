@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		9E169212238D19990026E2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E169211238D19990026E2B4 /* AppDelegate.swift */; };
 		9E169214238D19990026E2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E169213238D19990026E2B4 /* SceneDelegate.swift */; };
-		9E169216238D19990026E2B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E169215238D19990026E2B4 /* ViewController.swift */; };
-		9E169219238D19990026E2B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E169217238D19990026E2B4 /* Main.storyboard */; };
 		9E16921B238D199B0026E2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E16921A238D199B0026E2B4 /* Assets.xcassets */; };
 		9E16921E238D199B0026E2B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E16921C238D199B0026E2B4 /* LaunchScreen.storyboard */; };
+		9E16922F238D23BE0026E2B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E16922E238D23BE0026E2B4 /* Default-568h@2x.png */; };
+		9E169231238D25B00026E2B4 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E169230238D25B00026E2B4 /* CommentsViewController.swift */; };
+		9E169233238D29830026E2B4 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E169232238D29830026E2B4 /* CommentCell.swift */; };
+		9E46933C238E7683001DC891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E169217238D19990026E2B4 /* Main.storyboard */; };
+		9E6CBAAA238D2F8900AA1FB1 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CBAA9238D2F8900AA1FB1 /* Comment.swift */; };
+		9E6CBAAD238D39A300AA1FB1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6CBAAC238D39A300AA1FB1 /* NetworkService.swift */; };
+		9EFCAF30238E5801000B9CE4 /* CommentNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCAF2F238E5801000B9CE4 /* CommentNetworkService.swift */; };
+		9EFCAF32238E5D32000B9CE4 /* GetCommentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCAF31238E5D32000B9CE4 /* GetCommentResponse.swift */; };
+		9EFCAF35238E5E30000B9CE4 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCAF34238E5E30000B9CE4 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E16920E238D19990026E2B4 /* 16.Standart MVC-N Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "16.Standart MVC-N Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E169211238D19990026E2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E169213238D19990026E2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9E169215238D19990026E2B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E169218238D19990026E2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E16921A238D199B0026E2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E16921D238D199B0026E2B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E16921F238D199B0026E2B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E16922E238D23BE0026E2B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9E169230238D25B00026E2B4 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		9E169232238D29830026E2B4 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		9E6CBAA9238D2F8900AA1FB1 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		9E6CBAAC238D39A300AA1FB1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9EFCAF2F238E5801000B9CE4 /* CommentNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentNetworkService.swift; sourceTree = "<group>"; };
+		9EFCAF31238E5D32000B9CE4 /* GetCommentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCommentResponse.swift; sourceTree = "<group>"; };
+		9EFCAF34238E5E30000B9CE4 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		9E169205238D19990026E2B4 = {
 			isa = PBXGroup;
 			children = (
+				9E16922E238D23BE0026E2B4 /* Default-568h@2x.png */,
 				9E169210238D19990026E2B4 /* 16.Standart MVC-N Project */,
 				9E16920F238D19990026E2B4 /* Products */,
 			);
@@ -56,15 +71,117 @@
 		9E169210238D19990026E2B4 /* 16.Standart MVC-N Project */ = {
 			isa = PBXGroup;
 			children = (
-				9E169211238D19990026E2B4 /* AppDelegate.swift */,
-				9E169213238D19990026E2B4 /* SceneDelegate.swift */,
-				9E169215238D19990026E2B4 /* ViewController.swift */,
-				9E169217238D19990026E2B4 /* Main.storyboard */,
-				9E16921A238D199B0026E2B4 /* Assets.xcassets */,
-				9E16921C238D199B0026E2B4 /* LaunchScreen.storyboard */,
-				9E16921F238D199B0026E2B4 /* Info.plist */,
+				9E169228238D19EA0026E2B4 /* Application */,
+				9E169229238D19FA0026E2B4 /* Comments */,
+				9E16922D238D1A620026E2B4 /* Supporting Files */,
 			);
 			path = "16.Standart MVC-N Project";
+			sourceTree = "<group>";
+		};
+		9E169225238D19B40026E2B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E169211238D19990026E2B4 /* AppDelegate.swift */,
+				9E169213238D19990026E2B4 /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E169226238D19B80026E2B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E16921C238D199B0026E2B4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E169227238D19BB0026E2B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCAF34238E5E30000B9CE4 /* NetworkError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E169228238D19EA0026E2B4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9E169227238D19BB0026E2B4 /* Model */,
+				9E169226238D19B80026E2B4 /* View */,
+				9E169225238D19B40026E2B4 /* Controller */,
+				9E6CBAAB238D396F00AA1FB1 /* NetworkService */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9E169229238D19FA0026E2B4 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				9E16922A238D1A230026E2B4 /* Model */,
+				9E16922B238D1A2C0026E2B4 /* View */,
+				9E16922C238D1A320026E2B4 /* Controller */,
+				9EFCAF2E238E57E1000B9CE4 /* CommentNetworkService */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		9E16922A238D1A230026E2B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCAF33238E5DAA000B9CE4 /* Responses */,
+				9E6CBAA9238D2F8900AA1FB1 /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E16922B238D1A2C0026E2B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E169217238D19990026E2B4 /* Main.storyboard */,
+				9E169232238D29830026E2B4 /* CommentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E16922C238D1A320026E2B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E169230238D25B00026E2B4 /* CommentsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E16922D238D1A620026E2B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E16921A238D199B0026E2B4 /* Assets.xcassets */,
+				9E16921F238D199B0026E2B4 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E6CBAAB238D396F00AA1FB1 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				9E6CBAAC238D39A300AA1FB1 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		9EFCAF2E238E57E1000B9CE4 /* CommentNetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCAF2F238E5801000B9CE4 /* CommentNetworkService.swift */,
+			);
+			path = CommentNetworkService;
+			sourceTree = "<group>";
+		};
+		9EFCAF33238E5DAA000B9CE4 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCAF31238E5D32000B9CE4 /* GetCommentResponse.swift */,
+			);
+			name = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E46933C238E7683001DC891 /* Main.storyboard in Resources */,
 				9E16921E238D199B0026E2B4 /* LaunchScreen.storyboard in Resources */,
+				9E16922F238D23BE0026E2B4 /* Default-568h@2x.png in Resources */,
 				9E16921B238D199B0026E2B4 /* Assets.xcassets in Resources */,
-				9E169219238D19990026E2B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +256,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E169216238D19990026E2B4 /* ViewController.swift in Sources */,
+				9E6CBAAA238D2F8900AA1FB1 /* Comment.swift in Sources */,
+				9E169231238D25B00026E2B4 /* CommentsViewController.swift in Sources */,
 				9E169212238D19990026E2B4 /* AppDelegate.swift in Sources */,
 				9E169214238D19990026E2B4 /* SceneDelegate.swift in Sources */,
+				9E6CBAAD238D39A300AA1FB1 /* NetworkService.swift in Sources */,
+				9EFCAF32238E5D32000B9CE4 /* GetCommentResponse.swift in Sources */,
+				9EFCAF35238E5E30000B9CE4 /* NetworkError.swift in Sources */,
+				9E169233238D29830026E2B4 /* CommentCell.swift in Sources */,
+				9EFCAF30238E5801000B9CE4 /* CommentNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WJR74JV9LN;
-				INFOPLIST_FILE = "16.Standart MVC-N Project/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/16.Standart MVC-N Project/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WJR74JV9LN;
-				INFOPLIST_FILE = "16.Standart MVC-N Project/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/16.Standart MVC-N Project/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
