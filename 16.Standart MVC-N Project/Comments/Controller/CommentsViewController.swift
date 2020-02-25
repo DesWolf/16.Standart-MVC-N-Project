@@ -17,7 +17,7 @@ class CommentsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        self.tableView.rowHeight = 100
+        self.tableView.rowHeight = 110
         
         CommentNetworkService.getComments { (response) in
             self.comments = response.comments

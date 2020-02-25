@@ -18,6 +18,7 @@ class CommentNetworkService {
         NetworkService.shared.getData(url: url) {(json) in
             do {
                 let response = try GetCommentResponse(json: json)
+                
                 completion(response)
             } catch {
                 print(error)
